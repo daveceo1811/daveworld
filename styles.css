@@ -1,0 +1,202 @@
+body{
+font-family: 'Google San', 'Noto Sans Myanmar UI' arial, sans-serif;
+margin: 0px; 
+padding: 0px;
+}
+
+.Container{
+	width : 1300px;
+	height: auto;
+	margin-left: 0%;
+    margin-top: auto;
+    border: 1px solid gray;
+}
+
+#header{
+    background-color: white;
+    border: 0px;
+}
+#HeaderNavigation{
+	margin-top: 20px;
+	height: 70px;
+	width: 1500px;
+	background-color: grey;
+}
+#HeaderNavigation img{
+	float:left;
+	width: 150px;
+	 margin-left: 70px;
+}
+#HeaderNavigation ul li{
+	list-style-type: none;
+	float:right;
+	margin: 5px;
+	text-decoration: none;
+}
+#HeaderNavigation ul li a{
+	text-decoration:none;
+	color: #fff;
+	margin-right: 50px;
+}
+
+#HeaderNavigation ul li a{
+	text-decoration:none;
+	color: #fff;
+	margin-right: 50px;
+}
+.maindiv{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 350px;
+    min-height: 400px;
+    padding: 3rem;
+    border-radius: 0.5rem;
+    border: 1px solid #1a73e8;
+    text-align: center;
+    
+   
+        
+}
+.maindiv.field{
+    display: inline-block;
+    height: 90px;
+    position: relative;
+}
+h1{
+    font-size: 24px;
+    font-weight: 400px;
+}
+h3{
+    color: #f3f5fa;
+    font-size: 16px;
+    font-weight: 400;
+}
+input{
+    outline: none;
+}
+.Before-FS{
+    width: 344px;
+    border: 1px solid #c2c2c2;
+    border-radius: 3px;
+    font-size: 16px;
+    margin: 1px 1px 0 1px; 
+    padding: 13px 15px;
+    transition: 0.15;
+}
+.Before-FS:focus{
+border: 2px solid #1a73e8;
+border-top: 1px solid transparent;
+}
+.FS-H{
+    opacity: 1;
+    transition: 0.2;
+}
+.Fieldset>h1{
+font: 1cm normal;
+margin: -5px 2.5px -5px;
+position: absolute; 
+top: -60px;
+}
+.Fieldset>h1>span{
+    float: left;
+    color: #1a73e8;
+    font-family: 'Google San', 'Noto Sans Myanmar UI' arial, sans-serif;
+    font-size: 10px;
+}
+.Fieldset>h1::before{
+    border-top: 2px solid #1a73e8;
+    content: ' ';
+    margin: 0.5cm 2px 0 -1px;
+    width: 0.75cm;
+}
+.Fieldset>h1::after{
+    border-top: 2px solid #1a73e8;
+    content: ' ';
+    display:block;
+    height: 1.5cm;
+    left: 2px;
+    margin: 0 1px 0 0;
+    overflow: hidden;
+    position: relative;
+    top: 0.5cm;
+
+}
+.placeholder{
+    position: absolute;
+    top: 19px;
+    left: 20px;
+    color:#1a73e8;
+    font-size: 16px;
+    font-weight: 400;
+    pointer-events: none;
+    transition: 0.45;
+    margin-top: 10px;
+
+}
+
+input:focus ~ label.placeholder,
+input:valid ~ label.placeholder {
+    top:15px;
+    font-size: 10px;
+    opacity: 1;
+}
+input:focus+.FS-H, input:valid+.FS-H{
+    opacity: 0;
+}
+
+button{
+    cursor:pointer;
+    border: 1px solid transparent;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42;
+    color: white;
+    border-radius: 4px;
+    background-color: #1a73e8;
+    outline: none;
+    min-width: 88px;
+
+}
+
+.blue{
+    color:#1a73e8
+}
+.orangered{
+    color: orangered
+}
+.green{
+    color: green;
+}
+.yellow{
+    color: yellow
+}
+
+body{
+    margin: 0px;
+    overflow: hidden;
+}
+.field{
+    margin-top: 5px;
+}
+button{
+    margin-top: 5px;
+}
+.maindiv{
+    background-image: url(./IMAGES/fin6.JPG);
+}
+.header{
+    
+    background-image: url(./IMAGES/fin2.JPG);
+    background-size: cover;
+    background-position: bottom;
+
+    
+    height: 100vh;
+    width: 100vw;
+    border: 1px solid grey;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
